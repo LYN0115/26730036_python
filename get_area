@@ -1,7 +1,0 @@
-def get_area(radius):
-    area = 3.14*radius**2
-    return area
-
-a = int(input("반지름의 길이를 입력해주세요 : "))
-result = get_area(a)
-print("반지름이 "+str(a)+"인 원의 면적=",result)
